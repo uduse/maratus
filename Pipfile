@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+jupyter = "*"
+ipykernel = "*"
+jupyter-contrib-nbextensions = "*"
+
+[packages]
+numpy = "*"
+anytree = "*"
+tqdm = "*"
+
+[requires]
+python_version = "3.7"
